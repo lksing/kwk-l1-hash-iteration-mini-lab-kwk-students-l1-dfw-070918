@@ -58,5 +58,6 @@ def iterate_through_keys
   summer_olympics each_key = summer_olympic_cities
   summer_olympics each_key do |upcase_cities|
     summer_olympic_cities << cities.upcase
+  end
 
 end
